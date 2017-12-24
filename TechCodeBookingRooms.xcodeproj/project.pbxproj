@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		852C201B1FEFA3B900256A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C201A1FEFA3B900256A0E /* AppDelegate.swift */; };
-		852C201D1FEFA3B900256A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C201C1FEFA3B900256A0E /* ViewController.swift */; };
+		852C201D1FEFA3B900256A0E /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C201C1FEFA3B900256A0E /* LoginPage.swift */; };
 		852C20201FEFA3B900256A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852C201E1FEFA3B900256A0E /* Main.storyboard */; };
 		852C20231FEFA3B900256A0E /* TechCodeBookingRooms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 852C20211FEFA3B900256A0E /* TechCodeBookingRooms.xcdatamodeld */; };
 		852C20251FEFA3B900256A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852C20241FEFA3B900256A0E /* Assets.xcassets */; };
 		852C20281FEFA3B900256A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852C20261FEFA3B900256A0E /* LaunchScreen.storyboard */; };
+		852C20301FEFA42500256A0E /* LoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852C202F1FEFA42500256A0E /* LoginPage.xib */; };
+		852C20341FEFA46000256A0E /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20331FEFA46000256A0E /* Rooms.swift */; };
+		852C20361FEFA49C00256A0E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20351FEFA49B00256A0E /* BaseViewController.swift */; };
+		852C20381FEFA51A00256A0E /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20371FEFA51A00256A0E /* extensions.swift */; };
+		852C203A1FEFA6B700256A0E /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20391FEFA6B700256A0E /* Companies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		852C20171FEFA3B900256A0E /* TechCodeBookingRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechCodeBookingRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		852C201A1FEFA3B900256A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		852C201C1FEFA3B900256A0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		852C201C1FEFA3B900256A0E /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		852C201F1FEFA3B900256A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		852C20221FEFA3B900256A0E /* TechCodeBookingRooms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechCodeBookingRooms.xcdatamodel; sourceTree = "<group>"; };
 		852C20241FEFA3B900256A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852C20271FEFA3B900256A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852C20291FEFA3B900256A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852C202F1FEFA42500256A0E /* LoginPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginPage.xib; sourceTree = "<group>"; };
+		852C20331FEFA46000256A0E /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
+		852C20351FEFA49B00256A0E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		852C20371FEFA51A00256A0E /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		852C20391FEFA6B700256A0E /* Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,10 @@
 		852C20191FEFA3B900256A0E /* TechCodeBookingRooms */ = {
 			isa = PBXGroup;
 			children = (
+				852C20351FEFA49B00256A0E /* BaseViewController.swift */,
 				852C201A1FEFA3B900256A0E /* AppDelegate.swift */,
-				852C201C1FEFA3B900256A0E /* ViewController.swift */,
+				852C20321FEFA43B00256A0E /* VCs */,
+				852C20311FEFA43000256A0E /* Models */,
 				852C201E1FEFA3B900256A0E /* Main.storyboard */,
 				852C20241FEFA3B900256A0E /* Assets.xcassets */,
 				852C20261FEFA3B900256A0E /* LaunchScreen.storyboard */,
@@ -65,6 +77,25 @@
 				852C20211FEFA3B900256A0E /* TechCodeBookingRooms.xcdatamodeld */,
 			);
 			path = TechCodeBookingRooms;
+			sourceTree = "<group>";
+		};
+		852C20311FEFA43000256A0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				852C20331FEFA46000256A0E /* Rooms.swift */,
+				852C20371FEFA51A00256A0E /* extensions.swift */,
+				852C20391FEFA6B700256A0E /* Companies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		852C20321FEFA43B00256A0E /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				852C201C1FEFA3B900256A0E /* LoginPage.swift */,
+				852C202F1FEFA42500256A0E /* LoginPage.xib */,
+			);
+			path = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852C20301FEFA42500256A0E /* LoginPage.xib in Resources */,
 				852C20281FEFA3B900256A0E /* LaunchScreen.storyboard in Resources */,
 				852C20251FEFA3B900256A0E /* Assets.xcassets in Resources */,
 				852C20201FEFA3B900256A0E /* Main.storyboard in Resources */,
@@ -139,9 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852C201D1FEFA3B900256A0E /* ViewController.swift in Sources */,
+				852C20361FEFA49C00256A0E /* BaseViewController.swift in Sources */,
+				852C201D1FEFA3B900256A0E /* LoginPage.swift in Sources */,
+				852C203A1FEFA6B700256A0E /* Companies.swift in Sources */,
 				852C201B1FEFA3B900256A0E /* AppDelegate.swift in Sources */,
+				852C20341FEFA46000256A0E /* Rooms.swift in Sources */,
 				852C20231FEFA3B900256A0E /* TechCodeBookingRooms.xcdatamodeld in Sources */,
+				852C20381FEFA51A00256A0E /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
